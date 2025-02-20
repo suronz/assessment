@@ -1,6 +1,7 @@
 import 'package:test/test.dart';
 import 'string_calculator.dart';
 
+/// Unit tests for the String Calculator.
 void main() {
   final calculator = StringCalculator();
 
