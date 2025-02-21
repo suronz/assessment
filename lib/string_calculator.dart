@@ -1,6 +1,3 @@
-/// String Calculator class to process a string of numbers and return their sum.
-/// It supports custom delimiters, new line characters as delimiters, and throws
-/// exceptions for negative numbers.
 class StringCalculator {
   /// Adds numbers provided in a comma-separated string.
   /// Supports new lines as delimiters and custom delimiters (e.g., "//;\n1;2").
