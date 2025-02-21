@@ -32,6 +32,7 @@ void main() {
     expect(calculator.add("//|\n2|3|4"), equals(9));
   });
 
+  // Check negative numbers 
   test("Throws exception for negative numbers", () {
     expect(() => calculator.add("1,-2,3"), throwsA(predicate((e) => e.toString().contains("negative numbers not allowed -2"))));
   });
