@@ -24,6 +24,7 @@ void main() {
       int result = calculator.add(input);
       print("Result: $result");
     } catch (e) {
+      // Handle error.
       print("Error: ${e.toString()}");
     }
   }
